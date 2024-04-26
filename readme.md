@@ -10,7 +10,7 @@ The data analysis is conducted on the log file. The log file contains valuable i
 Feature engineering is performed to transform raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy.
 
 ## Sequence Modeling
-Sequence modeling involves using the BERT model to predict the sequence of actions. The BERT model is a transformer-based machine learning technique for natural language processing pre-training. It is designed to predict a missing word in a sentence, in a way that is agnostic to the word's location.
+Sequence modeling involves using the BERT model to predict the sequence of actions. The BERT model is a transformer-based machine learning technique for natural language processing pre-training. 
 
 In this project, we use BERT to generate special tokens that represent the sequence of actions. These tokens are then used to predict the user's score.
 
