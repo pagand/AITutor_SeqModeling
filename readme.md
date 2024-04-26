@@ -37,8 +37,4 @@ Refer to [Part2](/SeqModel) for more information.
 
 
 
-## Future Enhancements
-- Explore ensemble techniques to combine multiple model predictions for improved accuracy.
-- Incorporate more granular time-based features and patterns of actions to refine the understanding of user behavior.
-
 
