@@ -26,10 +26,14 @@ We use Weights and Biases for experiment tracking, model optimization, and datas
 
 This project leverages actual user interaction logs within an educational environment to predict scores. By capturing the sequence and nature of user actions without direct knowledge of the answers chosen or their correctness, the model aims to infer user scores based on behavioral patterns.
 
+Refer to [Part1](/DataAnalysis) for more information.
 
-# Part 2: Sequential Modeling for User Score Prediction (BERT)
+
+# Part 2: Sequential Modeling with BERT
 
 This project aims to predict user scores based on sequences of their interaction logs with a quiz system, without knowledge of the correct answers or the choices made by the user. The primary challenge is to infer the score from patterns in user behavior during the quiz.
+
+Refer to [Part2](/SeqModel) for more information.
 
 
 
