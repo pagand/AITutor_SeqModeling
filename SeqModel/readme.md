@@ -3,6 +3,21 @@
 ## Overview
 This project aims to predict user scores based on sequences of their interaction logs with a quiz system, without knowledge of the correct answers or the choices made by the user. The primary challenge is to infer the score from patterns in user behavior during the quiz.
 
+## Setup
+To run this project, ensure you have Python installed and the required packages, which can be installed via pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+To run the main script:
+
+```bash
+python main.py
+```
+
+You can also use the Jupyter notebook file for quick testing. 
+
 ## Key Points
 - **Actions**: Distinct types of interactions like changing an answer, requesting a hint, visiting educational resources (EDA), and interacting with a chatbot.
 - **States**: Representations of the user's quiz attempt at each action log, including time spent, number of hints requested, and other engagement metrics.
