@@ -15,7 +15,7 @@ Sequence modeling involves using the BERT model to predict the sequence of actio
 In this project, we use BERT to generate special tokens that represent the sequence of actions. These tokens are then used to predict the user's score.
 
 ### Data
-The data used in this project is stored in the [](data/) directory. It includes various files such as data.xlsx, group_a_raw.csv, Groupa_scores.xlsx, Groupb_scores.xlsx, integration_log_group_a.xlsx, and integration_log_group_b.xlsx.
+The data used in this project is stored in the [data](data/) directory. It includes various files such as data.xlsx, group_a_raw.csv, Groupa_scores.xlsx, Groupb_scores.xlsx, integration_log_group_a.xlsx, and integration_log_group_b.xlsx.
 ### Model Training and Evaluation
 The model is trained on the sequences and scores data, and its performance is evaluated on the test set.
 
