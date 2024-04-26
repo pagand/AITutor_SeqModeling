@@ -23,7 +23,7 @@ The model is trained on the sequences and scores data, and its performance is ev
 We use Weights and Biases for experiment tracking, model optimization, and dataset versioning. It helps us to keep track of our experiments, visualize our results, and share our findings with others.
 
 
-# User Interaction Log Score Prediction using Sequential modeling with Bert
+# Part 2: Sequential Modeling for User Score Prediction (BERT)
 
 ## Overview
 This project aims to predict user scores based on sequences of their interaction logs with a quiz system, without knowledge of the correct answers or the choices made by the user. The primary challenge is to infer the score from patterns in user behavior during the quiz.
