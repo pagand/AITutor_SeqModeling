@@ -20,3 +20,7 @@ This project aims to predict user scores based on sequences of their interaction
 2. **Feature Engineering**: Develop comprehensive features that encapsulate diverse aspects of user interactions.
 3. **Model Training**: Train the model using the prepared dataset, adjusting parameters as necessary.
 4. **Model Evaluation**: Validate the model's performance on a separate test set to ensure its effectiveness.
+
+## Future Enhancements
+- Explore ensemble techniques to combine multiple model predictions for improved accuracy.
+- Incorporate more granular time-based features and patterns of actions to refine the understanding of user behavior.
