@@ -7,8 +7,28 @@ This project aims to predict user scores based on sequences of their interaction
 To run this project, ensure you have Python installed and the required packages, which can be installed via pip:
 
 ```bash
+cd AITutor_SeqModeling
+pip install virtualenv
+python3 -m venv myenv
+source myenv/bin/activate
 pip install -r requirements.txt
 ```
+
+If you have GPU available:
+
+```bash
+conda uninstall pytorch
+pip uninstall torch
+pip uninstall torch # run this command twice
+```
+
+Then look for pytorch [local installation guide](https://pytorch.org/get-started/locally/) based on your OS and Cuda version. Here is an example for pip in Linux Cuda 11.8
+
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 --no-cache-dir
+```
+
+
 
 To run the main script:
 
